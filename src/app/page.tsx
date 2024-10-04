@@ -37,7 +37,7 @@ export default function Home() {
               </div>
               <div className="flex w-full max-w-sm items-center space-x-3">
                 <Input type="text" placeholder="Enter task here" />
-                <Button type="submit" formAction={addTask}>Add</Button>
+                <Button type="submit" onClick={addTask}>Add</Button>
               </div>
               <div className="tasks">
 
